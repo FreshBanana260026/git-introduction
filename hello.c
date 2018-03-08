@@ -1,5 +1,6 @@
 #include <stdio.h>
 void main(void)
 {
-puts("Hello World");
+char name[] = "Somebody";
+printf("Hello, %s\n", name);
 }
